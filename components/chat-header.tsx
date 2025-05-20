@@ -76,8 +76,8 @@ function PureChatHeader({
         asChild
       >
         <Link
-          href={`https://instagram.com/agung_wirak`}
-          target="_noblank"
+          href={`https://www.instagram.com/agung_wirak`}
+          target="_blank"
         >
           <VercelIcon size={16} />
           @agung_wirak
