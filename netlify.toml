@@ -1,8 +1,10 @@
+
 [build]
-  command = "pnpm run build"
-  publish = ".next"
+  command = "next build && next export"
+  publish = "out"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
 [build.environment]
-  POSTGRES_URL = "postgresql://neondb_owner:npg_vlR5rV4BfEAT@ep-calm-sound-a4bjz8nk-pooler.us-east-1.aws.neon.tech/neondb?sslmode=require"
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
