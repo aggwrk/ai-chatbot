@@ -27,7 +27,6 @@ export const UserIcon = () => {
         <img
           src="https://img.icons8.com/?size=100&id=32309&format=png&color=000000"
           alt="@agung_wirak"
-          className={styles.image}
         />
       </picture>
     
